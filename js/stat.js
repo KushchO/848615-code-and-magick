@@ -62,7 +62,7 @@ window.renderStatistics = function (ctx, names, times) {
   for (var j = 0; j < names.length; j++) {
     ctx.fillStyle = TEXT_COLOR;
     ctx.fillText(names[j], (startPositionX) + (fullBarWidth) * j, (startPositionY) - BOTTOM_GAP);
-    ctx.fillStyle = 'rgba(0, 0, 255, ' + Math.random() + ')';;
+    ctx.fillStyle = 'rgba(0, 0, 255, ' + Math.random() + ')';
     if (names[j] === 'Вы') {
       ctx.fillStyle = CURRENT_BAR_COLOR;
     }
